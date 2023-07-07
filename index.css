@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  color: #363738;
+  background-color: #fcfcfd;
+  font-family: Noto Sans Mono, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}

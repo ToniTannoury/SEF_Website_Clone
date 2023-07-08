@@ -59,7 +59,7 @@
   width: 100%;
   height: 35vh;
   max-width: 600px;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
   padding-right: 50px;
@@ -106,12 +106,13 @@
   margin-top: 40px;
   line-height: 2;
   color: white;
+  margin-bottom: 50px;
 }
 .containerPRight{
   text-align: left;
   flex: wrap;
   margin-top: 40px;
-  margin-bottom: 60px;
+  margin-bottom:65px;
   line-height: 2;
 }
 .partRight{
@@ -122,8 +123,28 @@
     width: 100%;
     height: 35vh;
     max-width: 600px;
-    flex-flow: column;
+    flex-direction: column;
     padding-left: 50px;
-    display: flex;
     color: white;
+}
+.containerButton{
+  color: #fcfcfd;
+  text-align: center;
+  background-color: rgba(54, 55, 56, .75);
+  padding: 15px 10px;
+  font-weight: 800;
+  text-decoration: none;
+}
+.blackButton{
+  color: #fcfcfd;
+  text-align: center;
+  font-weight: 800;
+  background-color: rgba(35, 35, 35, .9);
+}
+.whiteButton{
+  color:rgba(35, 35, 35, .9);
+  text-align: center;
+  font-weight: 800;
+  background-color:  #fcfcfd;
+  padding: 12px 10px;
 }

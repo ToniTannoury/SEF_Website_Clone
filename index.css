@@ -148,3 +148,13 @@
   background-color:  #fcfcfd;
   padding: 12px 10px;
 }
+.topcontainer{
+  display: flex;
+  justify-content:space-between ;
+  width:67%; position:absolute; 
+  z-index:2 ; 
+  margin:75px 17vw
+}
+.burger{
+
+}

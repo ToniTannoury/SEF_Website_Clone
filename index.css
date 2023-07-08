@@ -194,3 +194,100 @@
   border:10px solid #28eea7 ;
   border-radius: 10px;
 }
+
+.milestonesContainer {
+  max-width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.milestonesHeader{
+  align-items: center;
+  display: flex;
+  font-size: large;
+  font-weight: 800;
+}
+.headIcon{
+    font-size: 36px;
+    color: #28eea7;
+    margin: 40px 0px;
+    font-weight: 1000;
+    background-color: rgba(0, 0, 0, 0);
+    line-height: 1.4;
+    padding: 10px 20px;
+    font-weight: 900;
+}
+
+.circleContainer {
+  gap: 10px;
+  margin-left: auto;
+  display: flex;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1.2fr;
+  gap: 10px;
+}
+.table {
+  grid-area: span 2 / span 1 / span 2 / span 1;
+}
+
+.parentCell.right {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 30px;
+}
+
+.parentCell{
+  gap: 20px;
+  background-color: #f1f2f3;
+  border-radius: 20px;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+  padding: 20px 110px;
+}
+.topTitle.right{
+  color: #363738;
+  text-align: left;
+  font-size: 70px;
+  font-weight: 900;
+  width: 100%;
+}
+.topTitle{
+  color: #363738;
+  font-size: 90px;
+  font-weight: 800;
+}
+
+.rightCellText{
+  color: #363738;
+  
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.cell {
+  display: flex;
+  gap: 20px;
+}
+
+.circle.black {
+  background-color: #363738;
+}
+
+.circle {
+  width: 24px;
+  height: 24px;
+  background-color: #dcdee1;
+  border-radius: 20px;
+}
+
+.circle.green {
+  background-color: #28eea7;
+}

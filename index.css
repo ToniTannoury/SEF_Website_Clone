@@ -22,6 +22,17 @@
   position: relative;
   width: 100%;
 }
+.containerRight {
+  background-color: #363738;
+  background-image: linear-gradient(rgba(35, 35, 35, .85), rgba(35, 35, 35, .85)), url("https://uploads-ssl.webflow.com/63e3828…/641b4d4…_Untitled%20design%20(12).png");
+  background-position: 50%;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 0;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
 .containerHeader{
   text-align: right;
   margin-top: 0;
@@ -30,6 +41,15 @@
   font-size: 36px;
   font-weight: 900;
   line-height: 1;
+}
+.containerHeaderRight{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Noto Sans Mono, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1;
+  color: white;
 }
 .part{
   position: absolute;
@@ -60,6 +80,16 @@
   line-height: 2;
   font-size: 24px;
 }
+
+.h1BackgroundRight {
+  color: #363738;
+  background-color: #fcfcfd;
+  justify-content: flex-end;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 2;
+  font-size: 24px;
+}
 .containerText{
     flex: 0 auto;
     margin-top: 0;
@@ -67,11 +97,33 @@
     font-family: Noto Sans Mono, sans-serif;
     font-size: 36px;
     font-weight: 900;
-    line-height: 1
+    line-height: 1;
+    width: 100%;
 }
 .containerP{
   text-align: right;
   flex: 1;
   margin-top: 40px;
   line-height: 2;
+  color: white;
+}
+.containerPRight{
+  text-align: left;
+  flex: wrap;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  line-height: 2;
+}
+.partRight{
+  position: absolute;
+    top: 35%;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 35vh;
+    max-width: 600px;
+    flex-flow: column;
+    padding-left: 50px;
+    display: flex;
+    color: white;
 }

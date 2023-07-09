@@ -318,3 +318,121 @@
 .circle.grey {
   background-color: #a5a6a9;
 }
+
+.programs.greened {
+  background-color: #28eea7;
+}
+
+.programs {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.body-section-container-child {
+  max-width: 1340px;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: flex;
+}
+
+.program {
+  background-color: rgba(0, 0, 0, 0);
+  color: #363738;
+  padding: 20px 50px;
+  font-weight: 900;
+}
+.prog {
+  text-align: left;
+  color: #222;
+  padding: 9px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.fsw {
+  background-color: #363738;
+  border-radius: 10px 10px 0 0;
+  font-weight: 700;
+  color: #28eea7;
+  padding: 20px 40px;
+}
+
+.parentContainer.greened {
+  background-color: #363738;
+  height: 100%;
+  grid-column-gap: 40px;
+  border-radius: 20px;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.parentContainer{
+  grid-row-gap: 24px;
+  background-color: #fcfcfd;
+  border-radius: 20px;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 40px;
+  display: flex;
+}
+.fswDesc{
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  gap: 24px;
+  border-radius: 20px;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.fswText {
+  color: #fcfcfd;
+  align-self: stretch;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.flexed {
+  display: flex;
+  gap:15px;
+  align-self: stretch;
+  margin-top: auto;
+}
+.next {
+  display: flex;
+  color: #fcfcfd;
+  background-color: #232323;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.learnMore{
+  background-color: #232323;
+  flex: 1;
+  text-align: right;
+  margin-top: auto;
+  color: #fcfcfd;
+  padding: 15px 20px;
+  font-weight: 600;
+}
+
+.fswTitle {
+  font-weight:1000;
+  color: #fcfcfd;
+  text-align: left;
+  font-size: 20px;
+}
+.green {
+  padding-left: 5px;
+  color: #28eea7;
+  font-weight: 900;
+}
